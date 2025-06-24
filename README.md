@@ -32,12 +32,16 @@ For similarity.pkl file you have to run code where we dump file. Because file si
 
 ## 📁 Folder Structure
 
+
 Content_Based_Recommendation_System/
 │
-📘 README.md                    # Project documentation
-📓 Movie Recommendation System.ipynb  # Jupyter notebook (data prep + model)
-🧠 movies_app.py               # Streamlit app script
-📦 requirements.txt            # Python dependencies
+├── 📘 README.md                          # Project documentation
+├── 📓 Movie Recommendation System.ipynb  # Jupyter notebook (data prep + model)
+├── 🧠 movies_app.py                      # Streamlit app script
+├── 📦 requirements.txt                   # Python dependencies
+└── 📁 screenshots/                       # (optional) UI screenshots for README
+    ├── home.png
+    └── recommendations.png
 
 
 ## 📁 data                        
@@ -55,13 +59,13 @@ download:- Movies_metadata.csv and credits.csv.
 <img src="Screenshots/home.png" width="700"/>
 
 ### 🔹 Top 5 Recommendations
-<img src="Screenshots/recommendations.png" width="700"/>
+<img src="Screenshots/recommendation.png" width="700"/>
 
 ---
 
 ## 💡 How It Works
 
-1. Load TMDB dataset and clean it.
+1. Load IMDB dataset and clean it. https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 2. Extract features: `overview`, `genres`, `keywords`, `cast`, `crew`.
 3. Convert text into vectors using `CountVectorizer`.
 4. Compute **cosine similarity** between vectors.
