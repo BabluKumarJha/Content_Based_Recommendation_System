@@ -35,11 +35,11 @@ For similarity.pkl file you have to run code where we dump file. Because file si
 
 Content_Based_Recommendation_System/
 │
-├── 📘 README.md                          # Project documentation
+├── 📘 README.md                    # Project documentation
 ├── 📓 Movie Recommendation System.ipynb  # Jupyter notebook (data prep + model)
-├── 🧠 movies_app.py                      # Streamlit app script
-├── 📦 requirements.txt                   # Python dependencies
-└── 📁 screenshots/                       # (optional) UI screenshots for README
+├── 🧠 movies_app.py               # Streamlit app script
+├── 📦 requirements.txt            # Python dependencies      
+└── 📁 screenshots/                # (optional) UI screenshots for README
     ├── home.png
     └── recommendations.png
 
