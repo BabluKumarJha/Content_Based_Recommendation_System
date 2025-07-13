@@ -73,6 +73,10 @@ if st.button('Recommend'):
     with col5:
         st.text(names[4])
         st.image(posters[4])
-
+# we should use.
+    # col = st.columns(5)
+    # with col:
+    #     st.text(names[col])
+    #     st.image(posters[col])
 
 print(movies.columns.tolist())
