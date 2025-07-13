@@ -11,7 +11,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # fectch image link. or poster link.
 def fetch_poster(movie_id):
-    api_key = 'Your API Key'  # Replace with your actual OMDb API key
+    api_key = 'b593544e'  # Replace with your actual OMDb API key
     url = f'https://www.omdbapi.com/?i={movie_id}&apikey={api_key}'
     response = requests.get(url)
     data = response.json()
